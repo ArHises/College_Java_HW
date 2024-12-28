@@ -5,8 +5,12 @@
 2. Wordle
 
 
-    files:
+***files:***
+
     > HW01
+
     |    > Task01.java => ID check
+
     |    > Task02.java => Wordle
+
     |    > Run.java    => To run the programm
