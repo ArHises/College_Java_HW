@@ -29,7 +29,7 @@ public class Task01 {
 
     public boolean checkID(String id){
         id = id.trim();
-        if (id.length() > 9) return false;
+        if (id.length() > 9 || id.isEmpty()) return false;
 
         // checking if contains only numbers
         for (int i = 0; i < id.length(); i++) {
