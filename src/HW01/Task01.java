@@ -38,7 +38,7 @@ public class Task01 {
 
         // fill 0 if needed
         while (id.length() < 9){
-            id += '0';
+            id = "0" + id;
         }
 
         return calculateID(id) % 10 == 0;
