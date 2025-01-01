@@ -19,7 +19,7 @@ public class Task01 {
             int temp = ((i % 2) + 1) * digit;
 
             if(temp > 9) {
-                sum += temp - 9;
+                sum += temp/10 + temp % 10;
             } else {
                 sum += temp;
             }
